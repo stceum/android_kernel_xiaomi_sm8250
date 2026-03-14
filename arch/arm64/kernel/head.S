@@ -92,7 +92,7 @@ _head:
 	.quad	0				// reserved
 	.quad	0				// reserved
 	.quad	0				// reserved
-	.ascii	"ARM\x64"			// Magic number
+	.ascii	"ARMd"				// Magic number ARM\x64
 #ifdef CONFIG_EFI
 	.long	pe_header - _head		// Offset to the PE header.
 

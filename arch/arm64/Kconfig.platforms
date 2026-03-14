@@ -455,4 +455,11 @@ config ARCH_ZYNQMP
 	help
 	  This enables support for Xilinx ZynqMP Family
 
+menu "Xiaomi Family"
+config BOARD_XIAOMI
+	bool "Xiaomi Family"
+	help
+	  This enables support for XiaoMi Family
+endmenu
+
 endmenu
